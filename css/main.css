@@ -223,3 +223,182 @@ p
   background-color: #000;
   margin-top: 10px;
 }
+
+
+
+/* products.html */
+
+.pageHero
+{
+  display: flex;
+  width: 1020px;
+  height: 400px;
+  background-color: #000;
+  margin-top: 10px;
+}
+
+.product
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.productImage
+{
+    width: 710px;
+    height: 350px;
+}
+
+.productText
+{
+    width: 300px;
+    height: 350px;
+}
+
+.productName
+{
+  font-family: Lobster, Arial, sans-serif;
+}
+
+
+/* advertisements.html */
+
+.advertisementCon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.advertisementL
+{
+  width: 500px;
+  height: 300px;
+}
+
+.advertisementR
+{
+  width: 500px;
+  height: 300px;
+  margin-left: 20px;
+}
+
+
+/* about.html */
+
+#about
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#aboutText
+{
+    width: 710px;
+    height: 580px;
+}
+
+#aboutImage
+{
+    width: 300px;
+    height: 350px;
+}
+
+
+
+/* purchase.html */
+
+#purchaseCon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#purchaseCon h2
+{
+  color: #fff;
+}
+
+#purchaseCon p
+{
+  color: #fff;
+}
+
+#purchaseRight
+{
+    width: 500px;
+    height: 500px;
+    background-color: #444;
+}
+
+#purchaseLeft
+{
+    width: 500px;
+    height: 500px;
+    background-color: #D12027;
+    color: #fff;
+}
+
+
+
+.iconLinked
+{
+  margin-left: 115px;
+  padding: 30px;
+}
+
+.iconLinked img:hover 
+{
+  opacity: 0.5;
+}
+
+
+
+
+/*Form Start*/
+#contactForm
+{
+  padding: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+input
+{
+    display: block;
+    padding: 10px;
+    width: 300px;
+    height: 10px;
+    border: 1px solid #999;
+    color: #333;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#submit
+{
+    width: 75px;
+    height: 30px;
+    background-color: #2e5984;
+    padding: 5px 10px 5px 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #fff;
+    border: 1px solid #003471;
+    border-radius: 10px;
+}
+
+#submit:hover
+{
+    background-color: #1e3f5d;
+}
+/*Form End*/
