@@ -2,12 +2,104 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Web Template</title>
+		<title>Resolve Beer | Purchase</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    	<link rel="preconnect" href="https://fonts.gstatic.com">
+    	<link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap" rel="stylesheet">
+    	
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<!-- Content Goes Here -->
+		<h1 class="hidden">Resolve Beer Purchase Page</h1>
+
+		<!-- Container Start-->
+		<div id="container">
+
+			<header id="mainHeader">
+        		<nav id="mainNav">
+        		<h2 class="hidden">Main Navigation</h2>
+            		<ul>
+		                <li><a href="index.html">HOME</a></li>
+		                <li><a href="about.html">ABOUT</a></li>
+		                <li><a href="products.html">PRODUCTS</a></li>
+		                <li><a href="advertisements.html">ADVERTISEMENTS</a></li>
+		                <li class="selected"><a href="#">PURCHASE</a></li>
+            		</ul>
+        		</nav>
+        		<div id="logo">
+            		<img src="images/resolvebeer-logo.svg" alt="Resolve Beer Logo" width="200" height="60">
+        		</div>  
+      		</header>
+
+			<section class="pageHero">
+				<h2 class="hidden">Hero Image</h2>
+					<img src="images/placeholder_purchasepage.jpg" alt="Promotional Image" width="1020" height="400">
+			</section>
+
+
+			<section id="purchaseCon">
+				<h2 class="hidden">Contact/Make a Purchase</h2>
+				<div id="purchaseLeft">
+					<h2>Want to Hear More From Resolve?</h2>
+					<p>Fill out the form below to unlock exclusive news and offers.</p>
+					
+					<form id="contactForm" action="form.php" method="post">
+	                    <label for="firstName">First Name</label>
+	                    <input type="text" required id="firstName" name="firstName" size="30" placeholder="type here">
+	                    
+	                    <label for="lastName">Last Name</label>
+	                    <input type="text" required id="lastName" name="lastName" size="30" placeholder="type here">
+
+	                    <label for="email">Email</label>
+	                    <input type="email" required id="email" size="30" placeholder="type here">
+
+	                    <label for="email">Phone Number (optional)</label>
+	                    <input type="tel" required id="phone" size="30" placeholder="type here">
+
+	                    <label for="phone">Birth Date</label>
+	                    <input type="date" required id="birth" size="30" placeholder="DD / MM / YY">                  
+	                   
+	                    <input id="submit" type="submit" value="Submit">
+            		</form>
+				</div>
+				<div id="purchaseRight">
+					<h2>Shop Now</h2>
+					<p>Visit our shop or make an alcohol purchase with Skip the Dishes.</p>
+					<div class="iconLinked">
+						<a href="#"><img src="images/crown_icon.png" alt="Resolve Crown Icon" width="200"></a>
+					</div>
+					<div class="iconLinked">
+						<a href="https://www.skipthedishes.com/"><img src="images/skip_icon.jpg" alt="Skip the Dishes Icon" width="200"></a>
+					</div>
+				</div>				
+			</section>
+
+			
+
+			<footer id="mainFooter">
+            	<nav id="footerNav">
+            	<h2 class="hidden">Footer Navigation</h2>
+              		<ul>
+		                <li><a href="index.html">HOME</a></li>
+		                <li><a href="about.html">ABOUT</a></li>
+		                <li><a href="products.html">PRODUCTS</a></li>
+		                <li><a href="advertisements.html">ADVERTISEMENTS</a></li>
+		                <li class="selected"><a href="#">PURCHASE</a></li>
+            		</ul>
+            	</nav>
+              	<div id="copyRight">
+                	<p>&copy; 2021 Resolve</p>
+              	</div>
+          	</footer>
+
+
+			
+		</div>
+		<!-- Container End -->
 		
 		<script src="js/main.js"></script>
 	</body>
