@@ -1,0 +1,225 @@
+.hidden
+{
+  display: none;
+}
+
+
+
+#container
+{
+  width: 1020px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+#mainHeader
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#mainNav
+{
+  width: 650px;
+  height: 60px;
+  background-color: #D12027;
+  margin-left: 0 auto;
+}
+
+#mainNav ul
+{
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+#mainNav ul li
+{
+    font-size: 16px;
+    font-family: Poppins, Arial, sans-serif;
+    display: inline;
+    margin-left: 15px;
+}
+
+#mainNav ul li a
+{
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+#mainNav ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.selected
+{
+    padding: 10px 0 10px 0;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2
+{
+  font-family: Hind, Arial, sans-serif;
+  font-size: 30px;
+  color: #444;
+  padding: 20px 20px 0 20px;
+}
+
+p
+{
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  color: #444;
+  padding: 20px 20px 0 20px;
+}
+
+.smallText
+{
+  font-size: 14px;
+  line-height: 18px;
+
+}
+
+
+
+
+
+
+
+#logo
+{
+  width: 200px;
+  height: 60px;
+  background-color: #D12027;
+}
+
+#mainFooter
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #D12027;
+}
+
+#footerNav
+{
+  width: 650px;
+  height: 60px;
+  margin-left: 0 auto;
+}
+
+#copyRight
+{
+  width: 290px;
+  height: 60px;
+}
+
+#copyRight p
+{
+  color: #fff;
+  margin-right: 0 auto;
+  
+}
+
+
+
+
+
+#footerNav ul
+{
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+#footerNav ul li
+{
+    font-size: 16px;
+    font-family: Poppins, Arial, sans-serif;
+    display: inline;
+    margin-left: 15px;
+}
+
+#footerNav ul li a
+{
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+#footerNav ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+/* index.html */
+
+#hero
+{
+  margin-top: 10px;
+  display: flex;
+  width: 1020px;
+  height: 500px;
+  background-color: #000; 
+}
+
+#brandIntro 
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#brandIntroText
+{
+    width: 410px;
+    height: 400px;
+}
+
+
+
+#brandIntroImage
+{
+    width: 600px;
+    height: 400px;
+    background-color: #000;
+}
+
+#promo
+{
+  display: flex;
+  width: 1020px;
+  height: 400px;
+  background-color: #000;
+  margin-top: 10px;
+}
