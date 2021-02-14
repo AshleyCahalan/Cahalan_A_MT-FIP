@@ -1,3 +1,13 @@
+@charset "utf-8";
+
+
+/* Notes */
+
+/* Link to animation tutorial: https://www.youtube.com/watch?v=fUp_EWMU9LI */
+
+/* Free stock images were taken from unsplash */
+
+
 .hidden
 {
   display: none;
@@ -222,6 +232,31 @@ p
   height: 400px;
   background-color: #000;
   margin-top: 10px;
+}
+
+
+#underLineHome
+{
+  height: 6px;
+  width: 350px;
+  background-color: red;
+  margin-left: 20px;
+  animation: bounce 1s alternate infinite;
+}
+
+#underLineAbout
+{
+  height: 6px;
+  width: 450px;
+  background-color: red;
+  margin-left: 20px;
+  animation: bounce 1s alternate infinite;
+}
+
+@keyframes bounce
+{
+  0% { transform: translate(0px); }
+  100% { transform: translate(10px); }
 }
 
 
