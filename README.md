@@ -1,8 +1,8 @@
 # Midterm - FIP
-## IDP Midterm February 2021
+IDP Midterm February 2021
 
 ## The Brand
-Resolve -- A combination of Tyskie and Resolve Pet Stain Remover Carpet Cleaner.
+Resolve -- a combination of Tyskie and Resolve Pet Stain Remover Carpet Cleaner.
 
 ## Project Contents
 This project contains: 
