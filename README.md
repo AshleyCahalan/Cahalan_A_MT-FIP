@@ -1,1 +1,2 @@
-# Cahalan_A_MT-FIP
+# Midterm - FIP
+## For classes MMED-1055, MMED-1056, MMED-1057, MMED-3035 and MMED-3036
